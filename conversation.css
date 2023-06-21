@@ -28,3 +28,57 @@
     padding: 5px;
     margin-bottom: 2px;
 }
+#input-container{
+    background-color:rgba(32, 44, 51, 1);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+#input-container input {
+    width: 85%;
+    height: 40px;
+    background-color: rgba(42, 57, 66, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+#input-container img{
+    width: 30px;
+    height: 30px;
+}
+#conversation-header{
+    background-color: #202c33;
+    height: 60px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 75%;
+}
+#conversation-header img{
+    width: 40px;
+    height: 40px;
+}
+#submenu{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#submenu img{
+    width: 30px;
+    height: 30px;
+}
+#username{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
